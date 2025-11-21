@@ -1,6 +1,0 @@
-@EyeroneApi_HostAddress = http://localhost:5202
-
-GET {{EyeroneApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

@@ -1,0 +1,12 @@
+C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Domain\bin\Debug\net8.0\Eyerone.Domain.deps.json
+C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Domain\bin\Debug\net8.0\Eyerone.Domain.dll
+C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Domain\bin\Debug\net8.0\Eyerone.Domain.pdb
+C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Domain\obj\Debug\net8.0\Eyerone.Domain.csproj.AssemblyReference.cache
+C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Domain\obj\Debug\net8.0\Eyerone.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Domain\obj\Debug\net8.0\Eyerone.Domain.AssemblyInfoInputs.cache
+C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Domain\obj\Debug\net8.0\Eyerone.Domain.AssemblyInfo.cs
+C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Domain\obj\Debug\net8.0\Eyerone.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Domain\obj\Debug\net8.0\Eyerone.Domain.dll
+C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Domain\obj\Debug\net8.0\refint\Eyerone.Domain.dll
+C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Domain\obj\Debug\net8.0\Eyerone.Domain.pdb
+C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Domain\obj\Debug\net8.0\ref\Eyerone.Domain.dll
