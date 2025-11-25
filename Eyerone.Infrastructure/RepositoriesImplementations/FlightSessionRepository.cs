@@ -36,6 +36,12 @@ namespace Eyerone.Infrastructure.RepositoriesImplementations
             _context.FlightSessions.Update(session);
             await _context.SaveChangesAsync();
         }
+        public async Task<IEnumerable<FlightSession>> GetActiveSessionsByDroneIdAsync(int droneId)
+        {
+            return await _context.FlightSessions
+                .Where(s => s.DroneId == droneId && s.EndedAt == null)
+                .ToListAsync();
+        }
 
         public async Task DeleteAsync(int id)
         {

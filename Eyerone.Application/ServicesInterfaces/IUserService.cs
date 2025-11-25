@@ -11,6 +11,7 @@ namespace Eyerone.Domain.ServicesInterfaces
 
         Task<UserDto> GetByIdAsync(int id);
         Task<IEnumerable<UserDto>> GetAllAsync();
+        Task<UserDto> ChangeRoleAsync(int id, string newRole);
         Task<IEnumerable<object>> GetUserAlertsAsync(int userId);
         Task DeleteUserAsync(int id);
     }

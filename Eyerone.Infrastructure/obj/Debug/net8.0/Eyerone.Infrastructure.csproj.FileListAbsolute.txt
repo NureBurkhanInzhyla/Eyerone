@@ -15,5 +15,3 @@ C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Infrastructure\obj\Debug\net8
 C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Infrastructure\obj\Debug\net8.0\refint\Eyerone.Infrastructure.dll
 C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Infrastructure\obj\Debug\net8.0\Eyerone.Infrastructure.pdb
 C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Infrastructure\obj\Debug\net8.0\ref\Eyerone.Infrastructure.dll
-C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Infrastructure\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\ingil\source\repos\EyeroneProject\Eyerone.Infrastructure\bin\Debug\net8.0\appsettings.json

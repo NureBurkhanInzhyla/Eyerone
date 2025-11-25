@@ -25,10 +25,12 @@ namespace Eyerone.Application.ServicesImplementation
     {
         private readonly IDroneRepository _droneRepository;
         private readonly IUserRepository _userRepository;
-        public DroneService(IDroneRepository droneRepository, IUserRepository userRepository)
+        private readonly IFlightSessionRepository _flightRepository;
+        public DroneService(IDroneRepository droneRepository, IUserRepository userRepository, IFlightSessionRepository flightRepository)
         {
             _droneRepository = droneRepository;
             _userRepository = userRepository;
+            _flightRepository = flightRepository;
         }
         private DroneDto MapToDto(Drone drone)
         {
@@ -110,6 +112,12 @@ namespace Eyerone.Application.ServicesImplementation
             var drone = await _droneRepository.GetByIdAsync(id);
             if (drone == null)
                 throw new DroneNotFoundException("Drone not found");
+
+            var activeSessions = await _flightRepository.GetActiveSessionsByDroneIdAsync(id);
+
+
+            if (activeSessions.Any())
+                throw new Exception("Cannot delete drone: it has active flight sessions.");
 
             await _droneRepository.DeleteAsync(id);
         }

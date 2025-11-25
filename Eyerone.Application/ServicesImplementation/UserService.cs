@@ -134,6 +134,19 @@ namespace Eyerone.Application.ServicesImplementation
 
             return alerts.Select(a => (object)a);
         }
+        public async Task<UserDto> ChangeRoleAsync(int id, string newRole)
+        {
+            var user = await _userRepository.GetByIdAsync(id)
+                ?? throw new UserServiceException("User not found.");
+
+            if (newRole != "admin" && newRole != "operator")
+                throw new UserServiceException("Invalid role.");
+
+            user.Role = newRole;
+
+            var updated = await _userRepository.UpdateAsync(user);
+            return MapToDto(updated);
+        }
 
         public async Task DeleteUserAsync(int id)
         {
