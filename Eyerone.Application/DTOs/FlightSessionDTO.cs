@@ -9,6 +9,7 @@ namespace Eyerone.Application.DTOs
         public DateTime? EndedAt { get; set; }
         public TimeSpan? Duration { get; set; }
         public double AverageSpeed { get; set; }
+        public int DroneId { get; set; }
         public Dictionary<string, object>? Metadata { get; set; }
         public List<string> Recommendations { get; set; }
     }

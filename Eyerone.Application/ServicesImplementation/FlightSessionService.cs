@@ -16,22 +16,43 @@ namespace Eyerone.Application.ServicesImplementation
         private readonly IFlightSessionRepository _repository;
         private readonly ITelemetryService _telemetryService;
 
+        private FlightSessionDto MapToDto(FlightSession session)
+        {
+            return new FlightSessionDto
+            {
+                SessionId = session.SessionId,
+                StartedAt = session.StartedAt,
+                EndedAt = session.EndedAt,
+                DroneId = session.DroneId,
+                Metadata = session.Metadata
+            };
+        }
         public FlightSessionService(IFlightSessionRepository repository, ITelemetryService telemetryService)
         {
             _repository = repository;
             _telemetryService = telemetryService;
         }
 
-        public async Task<IEnumerable<FlightSession>> GetAllSessionsAsync() =>
-            await _repository.GetAllAsync();
+        public async Task<IEnumerable<FlightSessionDto>> GetAllSessionsAsync()
+        {
+            var sessions = await _repository.GetAllAsync();
+            return sessions.Select(MapToDto);
+        }
 
-        public async Task<FlightSession> GetSessionByIdAsync(int id)
+        public async Task<FlightSessionDto> GetSessionByIdAsync(int id)
         {
             var session = await _repository.GetByIdAsync(id);
             if (session == null)
                 throw new FlightSessioNotFoundException("Flight session not found");
 
-            return session;
+            return new FlightSessionDto
+            {
+                SessionId = session.SessionId,
+                StartedAt = session.StartedAt,
+                EndedAt = session.EndedAt,
+                DroneId = session.DroneId,
+                Metadata = session.Metadata 
+            };
         }
 
         public async Task<FlightSession> AddSessionAsync(FlightSession session)
@@ -48,7 +69,7 @@ namespace Eyerone.Application.ServicesImplementation
 
         public async Task<FlightSessionDto> EndSessionAsync(int id)
         {
-            var session = await GetSessionByIdAsync(id);
+            var session = await _repository.GetByIdAsync(id);
 
             if (session.EndedAt != null)
                 throw new InvalidOperationException("Session already ended");
