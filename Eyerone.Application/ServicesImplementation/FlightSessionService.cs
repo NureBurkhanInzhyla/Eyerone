@@ -3,6 +3,7 @@ using Eyerone.Application.RepositoriesInterfaces;
 using Eyerone.Application.ServicesInterfaces;
 using Eyerone.Domain.Models;
 using Eyerone.Domain.ServicesInterfaces;
+using System.Text.Json;
 
 namespace Eyerone.Application.ServicesImplementation
 {

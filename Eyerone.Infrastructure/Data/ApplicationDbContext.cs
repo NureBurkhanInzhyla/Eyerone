@@ -1,5 +1,7 @@
 ﻿using Eyerone.Domain.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using System.Text.Json;
 
 namespace Eyerone.Infrastructure.Data
 {
@@ -16,5 +18,7 @@ namespace Eyerone.Infrastructure.Data
         public DbSet<Telemetry> TelemetryData { get; set; }
         public DbSet<Command> Commands { get; set; }
         public DbSet<Alert> Alerts { get; set; }
+
+
     }
 }
