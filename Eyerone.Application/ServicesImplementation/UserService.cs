@@ -40,7 +40,8 @@ namespace Eyerone.Application.ServicesImplementation
                 UserId = user.UserId,
                 Email = user.Email,
                 Username = user.Username,
-                CreatedAt = user.CreatedAt
+                CreatedAt = user.CreatedAt,
+                Role = user.Role
             };
         }
         private string GenerateJwtToken(User user)
