@@ -24,7 +24,15 @@ namespace Eyerone.Infrastructure.RepositoriesImplementations
         {
             return await _context.Commands.FindAsync(id);
         }
-
+        public async Task<Command> GetLatestCommandForDrone(int droneId)
+        {
+            var command = await _context.Commands
+              .Where(c => c.DroneId == droneId && c.Status == "pending")
+              .OrderByDescending(c => c.CreatedAt)
+              .FirstOrDefaultAsync();
+            
+            return command;
+        }
         public async Task<IEnumerable<Command>> GetByDroneIdAsync(int droneId)
         {
             return await _context.Commands
@@ -36,6 +44,7 @@ namespace Eyerone.Infrastructure.RepositoriesImplementations
         public async Task<Command> AddAsync(Command command)
         {
             _context.Commands.Add(command);
+
             await _context.SaveChangesAsync();
             return command;
         }

@@ -2,6 +2,7 @@
 using Eyerone.Application.RepositoriesInterfaces;
 using Eyerone.Application.ServicesInterfaces;
 using Eyerone.Domain.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
@@ -28,7 +29,9 @@ namespace Eyerone.Application.ServicesImplementation
             return new CommandDTO
             {
                 CommandId = command.CommandId,
+                UserId = command.UserId,
                 DroneId = command.DroneId,
+                CommandType = command.CommandType,
                 CommandParameters = command.Parameters,
                 Status = command.Status,
                 CreatedAt = command.CreatedAt
@@ -62,16 +65,35 @@ namespace Eyerone.Application.ServicesImplementation
             return MapToDto(command);
         }
 
-        public async Task<CommandDTO> CreateCommandAsync(Command command) 
+        public async Task<CommandDTO> CreateCommandAsync(CommandDTO commandDto) 
         {
-            if(command.DroneId == 0) {
+            var command = new Command
+            {
+                UserId = commandDto.UserId,
+                DroneId = commandDto.DroneId,
+                CommandType = commandDto.CommandType,
+                Parameters = string.IsNullOrWhiteSpace(commandDto.CommandParameters) ? "{}" : commandDto.CommandParameters,
+                Status = "pending",
+                CreatedAt = DateTime.UtcNow
+            };
+            if (command.DroneId == 0) {
                 throw new NotFoundException($"Drone with ID {command.DroneId} not found.");
             }
 
             var createdCommand = await _commandRepository.AddAsync(command);
             return MapToDto(createdCommand);
         }
+        public async Task<CommandDTO> GetLatestCommandForDrone(int droneId)
+        {
+            var command = await _commandRepository.GetLatestCommandForDrone(droneId);
+            if (command == null) return null;
 
+            command.Status = "executed";
+            await _commandRepository.UpdateAsync(command);
+
+            return MapToDto(command);
+
+        }
         public async Task DeleteCommandAsync(int id)
         {
             var command = await _commandRepository.GetByIdAsync(id);

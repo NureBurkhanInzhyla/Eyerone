@@ -8,7 +8,7 @@ namespace Eyerone.Application.ServicesInterfaces
     {
         Task<IEnumerable<FlightSessionDto>> GetAllSessionsAsync();
         Task<FlightSessionDto> GetSessionByIdAsync(int id);
-        Task<FlightSession> AddSessionAsync(FlightSession session);
+        Task<FlightSession> AddSessionAsync(int droneId);
         Task<FlightSessionDto> EndSessionAsync(int id);
         Task DeleteSessionAsync(int id);
     }

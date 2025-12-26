@@ -55,8 +55,12 @@ namespace Eyerone.Application.ServicesImplementation
             };
         }
 
-        public async Task<FlightSession> AddSessionAsync(FlightSession session)
+        public async Task<FlightSession> AddSessionAsync(int droneId)
         {
+            var session = new FlightSession
+            {
+                DroneId = droneId,
+            };
             return await _repository.AddAsync(session);
         }
 
@@ -81,6 +85,7 @@ namespace Eyerone.Application.ServicesImplementation
             await _repository.UpdateAsync(session);
 
             var avgSpeed = await _telemetryService.GetAverageSpeedAsync(id);
+            var avgBattery = await _telemetryService.GetAverageBatteryLevel(id);
 
             var recommendations = new List<string>();
 
@@ -90,8 +95,8 @@ namespace Eyerone.Application.ServicesImplementation
                     recommendations.Add("Check high-speed stability");
             }
 
-            if (duration > TimeSpan.FromMinutes(30))
-                recommendations.Add("Battery may need replacement");
+            if (avgBattery < 20)
+                recommendations.Add("Consider charging battery before next flight");
 
             return new FlightSessionDto
             {
@@ -99,6 +104,7 @@ namespace Eyerone.Application.ServicesImplementation
                 StartedAt = session.StartedAt,
                 EndedAt = session.EndedAt,
                 Duration = duration,
+                DroneId = session.DroneId, 
                 AverageSpeed = avgSpeed.HasValue ? avgSpeed.Value : 0,
                 Recommendations = recommendations
             };

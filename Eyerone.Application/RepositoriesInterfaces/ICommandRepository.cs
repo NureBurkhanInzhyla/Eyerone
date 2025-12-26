@@ -10,6 +10,7 @@ namespace Eyerone.Application.RepositoriesInterfaces
         Task<IEnumerable<Command>> GetByDroneIdAsync(int droneId);
         Task<Command> UpdateAsync(Command command);
         Task<Command> AddAsync(Command command);
+        Task<Command> GetLatestCommandForDrone(int droneId);
         Task DeleteAsync(int id);
     }
 }

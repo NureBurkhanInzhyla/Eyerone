@@ -47,5 +47,12 @@ namespace Eyerone.Application.ServicesImplementation
             if (!telemetry.Any()) return null;
             return telemetry.Average(t => t.Speed);
         }
+
+        public async Task<double?> GetAverageBatteryLevel(int flightId)
+        {
+            var telemetry = await _repository.GetByFlightIdAsync(flightId);
+            if (!telemetry.Any()) return null;
+            return telemetry.Average(t => t.BatteryLevel);
+        }
     }
 }

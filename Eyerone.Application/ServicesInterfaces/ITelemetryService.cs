@@ -9,6 +9,7 @@ namespace Eyerone.Application.ServicesInterfaces
         Task<IEnumerable<Telemetry>> GetTelemetryByFlightAsync(int flightId);
         Task<Telemetry> AddTelemetryAsync(Telemetry telemetry);
         Task<double?> GetAverageSpeedAsync(int flightId);
+        Task<double?> GetAverageBatteryLevel(int flightId);
 
     }
 }

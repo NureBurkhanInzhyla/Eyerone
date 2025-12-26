@@ -8,7 +8,8 @@ namespace Eyerone.Application.ServicesInterfaces
         Task<IEnumerable<CommandDTO>> GetAllCommandsAsync();
         Task<IEnumerable<CommandDTO>> GetCommandsByDroneIdAsync(int droneId);
         Task<CommandDTO> GetCommandByIdAsync(int id);
-        Task<CommandDTO> CreateCommandAsync(Command command);
+        Task<CommandDTO> CreateCommandAsync(CommandDTO command);
+        Task<CommandDTO> GetLatestCommandForDrone(int droneId);
         Task DeleteCommandAsync(int id);
     }
 }
