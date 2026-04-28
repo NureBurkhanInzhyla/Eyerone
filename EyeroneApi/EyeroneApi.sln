@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeroneApi", "EyeroneApi.csproj", "{A3251B4D-E803-45F5-9D47-114F0854315D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3251B4D-E803-45F5-9D47-114F0854315D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3251B4D-E803-45F5-9D47-114F0854315D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3251B4D-E803-45F5-9D47-114F0854315D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3251B4D-E803-45F5-9D47-114F0854315D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D74E3DC1-FC2C-43DF-B7E9-DEF1A55F0427}
+	EndGlobalSection
+EndGlobal

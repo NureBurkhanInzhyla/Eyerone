@@ -1,4 +1,5 @@
-﻿using Eyerone.Domain.Models;
+﻿using Eyerone.Application.DTOs;
+using Eyerone.Domain.Models;
 
 namespace Eyerone.Application.RepositoriesInterfaces
 {
@@ -8,6 +9,7 @@ namespace Eyerone.Application.RepositoriesInterfaces
         Task<FlightSession> GetByIdAsync(int id);
         Task<FlightSession> AddAsync(FlightSession session);
         Task UpdateAsync(FlightSession session);
+        Task<IEnumerable<FlightSession>> GetSessionsByUserId(int userId);
 
         Task<IEnumerable<FlightSession>> GetActiveSessionsByDroneIdAsync(int droneId);
         Task DeleteAsync(int id);

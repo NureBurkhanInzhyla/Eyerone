@@ -48,6 +48,12 @@ namespace Eyerone.Application.ServicesImplementation
             return telemetry.Average(t => t.Speed);
         }
 
+        public async Task<Telemetry?> GetLatestTelemetryByDroneAsync(int droneId)
+        {
+            var telemetry = await _repository.GetLatestTelemetryByDrone(droneId);
+            return telemetry;
+        }
+
         public async Task<double?> GetAverageBatteryLevel(int flightId)
         {
             var telemetry = await _repository.GetByFlightIdAsync(flightId);

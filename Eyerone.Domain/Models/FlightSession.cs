@@ -29,5 +29,8 @@ namespace Eyerone.Domain.Models
         [Required, Column("drone_id")]
         public int DroneId { get; set; }
 
+        [ForeignKey("DroneId")]
+        public virtual Drone Drone { get; set; }
+
     }
 }

@@ -20,6 +20,11 @@ namespace Eyerone.Infrastructure.RepositoriesImplementations
         {
             return await _context.Drones.ToListAsync();
         }
+        public async Task<IEnumerable<Drone>> GetUserDrones(int userId)
+        {
+            return await _context.Drones.Where(d => d.OwnerId == userId).ToListAsync();
+        }
+
 
         public async Task<Drone> GetByIdAsync(int id)
         {
@@ -31,6 +36,12 @@ namespace Eyerone.Infrastructure.RepositoriesImplementations
             _context.Drones.Add(drone);
             await _context.SaveChangesAsync();
             return drone;
+        }
+
+        public async Task<int> GetDroneIdBySerial(string serialNumber)
+        {
+            var drone = await _context.Drones.FirstOrDefaultAsync(d => d.SerialNumber == serialNumber && d.OwnerId != null);
+            return drone != null ? drone.DroneId : -1;
         }
 
         public async Task DeleteAsync(int id)

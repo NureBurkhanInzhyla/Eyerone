@@ -7,7 +7,7 @@ namespace Eyerone.Domain.ServicesInterfaces
     {
         Task<UserDto> RegisterAsync(UserRegisterDTO registerDto);
 
-        Task<string> LoginAsync(UserLoginDTO loginDto);
+        Task<LoginResponseDto> LoginAsync(UserLoginDTO loginDto);
 
         Task<UserDto> GetByIdAsync(int id);
         Task<IEnumerable<UserDto>> GetAllAsync();

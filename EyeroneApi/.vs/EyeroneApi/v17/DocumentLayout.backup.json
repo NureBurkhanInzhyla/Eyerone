@@ -1,0 +1,698 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\controllers\\alertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:controllers\\alertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\dtos\\dronedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:dtos\\dronedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\services\\implementation\\alertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:services\\implementation\\alertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\services\\interfaces\\ialertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:services\\interfaces\\ialertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\controllers\\commandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:controllers\\commandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\services\\implementation\\telemetryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:services\\implementation\\telemetryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\repositories\\implementations\\telemetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:repositories\\implementations\\telemetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\repositories\\implementations\\dronerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:repositories\\implementations\\dronerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\repositories\\interfaces\\iflightsessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:repositories\\interfaces\\iflightsessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\services\\interfaces\\itelemetryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:services\\interfaces\\itelemetryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\services\\interfaces\\iflightsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:services\\interfaces\\iflightsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\services\\interfaces\\idroneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:services\\interfaces\\idroneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\services\\interfaces\\icommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:services\\interfaces\\icommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\services\\implementation\\flightsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:services\\implementation\\flightsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\repositories\\interfaces\\itelemetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:repositories\\interfaces\\itelemetryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\repositories\\implementations\\flightsessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:repositories\\implementations\\flightsessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\repositories\\interfaces\\idronerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:repositories\\interfaces\\idronerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\repositories\\implementations\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:repositories\\implementations\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\repositories\\interfaces\\ialertrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:repositories\\interfaces\\ialertrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\repositories\\interfaces\\icommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:repositories\\interfaces\\icommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\repositories\\implementations\\alertrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:repositories\\implementations\\alertrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\controllers\\telemetrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:controllers\\telemetrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\models\\flightsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:models\\flightsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\dtos\\flightsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:dtos\\flightsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\models\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:models\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\controllers\\flightsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:controllers\\flightsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\controllers\\dronecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:controllers\\dronecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\models\\telemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:models\\telemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|c:\\users\\ingil\\source\\repos\\eyeroneapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3251B4D-E803-45F5-9D47-114F0854315D}|EyeroneApi.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 24,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Implementation\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementation\\UserService.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Implementation\\UserService.cs",
+              "RelativeToolTip": "Services\\Implementation\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:06:04.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:02:57.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITelemetryService.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Interfaces\\ITelemetryService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ITelemetryService.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Interfaces\\ITelemetryService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ITelemetryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:30:16.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICommandService.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Interfaces\\ICommandService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICommandService.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Interfaces\\ICommandService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICommandService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:30:08.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:28:59.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IFlightSessionService.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Interfaces\\IFlightSessionService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IFlightSessionService.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Interfaces\\IFlightSessionService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IFlightSessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:26:44.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IDroneService.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Interfaces\\IDroneService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IDroneService.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Interfaces\\IDroneService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IDroneService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:23:05.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAlertService.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Interfaces\\IAlertService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAlertService.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Interfaces\\IAlertService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAlertService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:22:34.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:21:26.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ITelemetryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Interfaces\\ITelemetryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ITelemetryRepository.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Interfaces\\ITelemetryRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ITelemetryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:21:14.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IFlightSessionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Interfaces\\IFlightSessionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IFlightSessionRepository.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Interfaces\\IFlightSessionRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IFlightSessionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:20:59.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IDroneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Interfaces\\IDroneRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IDroneRepository.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Interfaces\\IDroneRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IDroneRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:20:41.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Interfaces\\ICommandRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICommandRepository.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Interfaces\\ICommandRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ICommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:20:25.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IAlertRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Interfaces\\IAlertRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAlertRepository.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Interfaces\\IAlertRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IAlertRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:20:07.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DroneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Implementations\\DroneRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\DroneRepository.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Implementations\\DroneRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\DroneRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:13:21.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Implementations\\CommandRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\CommandRepository.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Implementations\\CommandRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\CommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:04:16.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TelemetryService.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Implementation\\TelemetryService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementation\\TelemetryService.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Implementation\\TelemetryService.cs",
+              "RelativeToolTip": "Services\\Implementation\\TelemetryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:01:32.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TelemetryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Implementations\\TelemetryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\TelemetryRepository.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Implementations\\TelemetryRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\TelemetryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:00:57.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FlightSessionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\DTOs\\FlightSessionDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\FlightSessionDTO.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\DTOs\\FlightSessionDTO.cs",
+              "RelativeToolTip": "DTOs\\FlightSessionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:38:31.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FlightSessionService.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Implementation\\FlightSessionService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementation\\FlightSessionService.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Implementation\\FlightSessionService.cs",
+              "RelativeToolTip": "Services\\Implementation\\FlightSessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:38:01.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FlightSessionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Implementations\\FlightSessionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\FlightSessionRepository.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Implementations\\FlightSessionRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\FlightSessionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:36:44.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlertService.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Implementation\\AlertService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementation\\AlertService.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Services\\Implementation\\AlertService.cs",
+              "RelativeToolTip": "Services\\Implementation\\AlertService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:30:35.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AlertRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Implementations\\AlertRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\AlertRepository.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Repositories\\Implementations\\AlertRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\AlertRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:28:44.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlertController.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Controllers\\AlertController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlertController.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Controllers\\AlertController.cs",
+              "RelativeToolTip": "Controllers\\AlertController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:57:16.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommandController.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Controllers\\CommandController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommandController.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Controllers\\CommandController.cs",
+              "RelativeToolTip": "Controllers\\CommandController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:56:51.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TelemetryController.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Controllers\\TelemetryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TelemetryController.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Controllers\\TelemetryController.cs",
+              "RelativeToolTip": "Controllers\\TelemetryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:56:37.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FlightSessionController.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Controllers\\FlightSessionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FlightSessionController.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Controllers\\FlightSessionController.cs",
+              "RelativeToolTip": "Controllers\\FlightSessionController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:56:25.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Alert.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Models\\Alert.cs",
+              "RelativeDocumentMoniker": "Models\\Alert.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Models\\Alert.cs",
+              "RelativeToolTip": "Models\\Alert.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA4wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:44:33.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Models\\Command.cs",
+              "RelativeDocumentMoniker": "Models\\Command.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Models\\Command.cs",
+              "RelativeToolTip": "Models\\Command.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA4wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:44:25.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Telemetry.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Models\\Telemetry.cs",
+              "RelativeDocumentMoniker": "Models\\Telemetry.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Models\\Telemetry.cs",
+              "RelativeToolTip": "Models\\Telemetry.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:44:13.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FlightSession.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Models\\FlightSession.cs",
+              "RelativeDocumentMoniker": "Models\\FlightSession.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Models\\FlightSession.cs",
+              "RelativeToolTip": "Models\\FlightSession.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:44:02.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:41:15.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DroneDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\DTOs\\DroneDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\DroneDTO.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\DTOs\\DroneDTO.cs",
+              "RelativeToolTip": "DTOs\\DroneDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:40:22.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:05:02.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DroneController.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Controllers\\DroneController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DroneController.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Controllers\\DroneController.cs",
+              "RelativeToolTip": "Controllers\\DroneController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:47:14.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:43:42.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Drone.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Models\\Drone.cs",
+              "RelativeDocumentMoniker": "Models\\Drone.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Models\\Drone.cs",
+              "RelativeToolTip": "Models\\Drone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:40:15.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:37:14.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-16T13:34:50.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ingil\\source\\repos\\EyeroneApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:33:45.477Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

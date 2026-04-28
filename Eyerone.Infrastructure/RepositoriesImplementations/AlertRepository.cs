@@ -25,6 +25,7 @@ namespace Eyerone.Infrastructure.RepositoriesImplementations
 
         public async Task<IEnumerable<Alert>> GetByUserIdAsync(int userId) =>
             await _context.Alerts
+                .Include(a => a.Drone)
                 .Where(a => a.UserId == userId)
                 .OrderByDescending(a => a.CreatedAt)
                 .ToListAsync();

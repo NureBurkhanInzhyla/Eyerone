@@ -1,4 +1,5 @@
-﻿using Eyerone.Domain.Models;
+﻿using Eyerone.Application.DTOs;
+using Eyerone.Domain.Models;
 
 namespace Eyerone.Application.ServicesInterfaces
 {
@@ -8,6 +9,7 @@ namespace Eyerone.Application.ServicesInterfaces
         Task<Alert> GetAlertByIdAsync(int id);
         Task<Alert> CreateAlertAsync(Alert alert);
         Task<Alert> ReadAlertAsync(int id);
+        Task<IEnumerable<AlertDTO>> GetAlertsByUserIdAsync(int userId);
         Task DeleteAlertAsync(int id);
     }
 }

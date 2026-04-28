@@ -34,6 +34,14 @@ namespace Eyerone.Infrastructure.RepositoriesImplementations
                 .OrderBy(t => t.Timestamp)
                 .ToListAsync();
         }
+        public async Task<Telemetry?> GetLatestTelemetryByDrone(int droneId)
+        {
+            return await _context.TelemetryData
+                .Include(t => t.FlightSession)
+                .Where(t => t.FlightSession != null && t.FlightSession.DroneId == droneId)
+                .OrderByDescending (t => t.Timestamp)
+                .FirstOrDefaultAsync();
+        }
 
         public async Task<Telemetry> AddAsync(Telemetry telemetry)
         {

@@ -93,7 +93,7 @@ namespace Eyerone.Application.ServicesImplementation
             return MapToDto(createdUser);
         }
 
-        public async Task<string> LoginAsync(UserLoginDTO loginDto)
+        public async Task<LoginResponseDto> LoginAsync(UserLoginDTO loginDto)
         {
             var user = await _userRepository.GetByEmailAsync(loginDto.Email);
 
@@ -103,8 +103,9 @@ namespace Eyerone.Application.ServicesImplementation
             }
 
             var token = GenerateJwtToken(user);
+            var userDto = new UserDto { UserId = user.UserId, Email = user.Email, Username = user.Username, CreatedAt = user.CreatedAt, Role = user.Role };
 
-            return token;
+            return new LoginResponseDto { Token = token, User = userDto };
         }
 
         public async Task<IEnumerable<UserDto>> GetAllAsync()

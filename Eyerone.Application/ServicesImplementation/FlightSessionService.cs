@@ -55,6 +55,49 @@ namespace Eyerone.Application.ServicesImplementation
             };
         }
 
+        private async Task<FlightSessionDto> ProcessFlightSummaryAsync(FlightSession session)
+        {
+            var avgSpeed = await _telemetryService.GetAverageSpeedAsync(session.SessionId);
+            var avgBattery = await _telemetryService.GetAverageBatteryLevel(session.SessionId);
+
+            var recommendations = new List<string>();
+
+            if (avgSpeed.HasValue && avgSpeed.Value > 10)
+            {
+                recommendations.Add("Check high-speed stability");
+            }
+
+            if (avgBattery < 20)
+            {
+                recommendations.Add("Consider charging battery before next flight");
+            }
+
+            return new FlightSessionDto
+            {
+                SessionId = session.SessionId,
+                StartedAt = session.StartedAt,
+                EndedAt = session.EndedAt,
+                Duration = session.EndedAt.HasValue ? session.EndedAt.Value - session.StartedAt : null,
+                DroneId = session.DroneId,
+                DroneName = session.Drone?.DroneName ?? "Unknown Drone",
+                AverageSpeed = avgSpeed ?? 0,
+                Recommendations = recommendations,
+                Metadata = session.Metadata
+            };
+        }
+
+        public async Task<IEnumerable<FlightSessionDto>> GetSessionsByUserIdAsync(int userId)
+        {
+            var sessions = (await _repository.GetSessionsByUserId(userId)).ToList();
+            var sessionsDto = new List<FlightSessionDto>();
+
+            foreach (var session in sessions)
+            {
+                sessionsDto.Add(await ProcessFlightSummaryAsync(session));
+            }
+            return sessionsDto;
+        }
+
         public async Task<FlightSession> AddSessionAsync(int droneId)
         {
             var session = new FlightSession
@@ -84,30 +127,7 @@ namespace Eyerone.Application.ServicesImplementation
 
             await _repository.UpdateAsync(session);
 
-            var avgSpeed = await _telemetryService.GetAverageSpeedAsync(id);
-            var avgBattery = await _telemetryService.GetAverageBatteryLevel(id);
-
-            var recommendations = new List<string>();
-
-            if (avgSpeed.HasValue)
-            {
-                if (avgSpeed.Value > 10)
-                    recommendations.Add("Check high-speed stability");
-            }
-
-            if (avgBattery < 20)
-                recommendations.Add("Consider charging battery before next flight");
-
-            return new FlightSessionDto
-            {
-                SessionId = session.SessionId,
-                StartedAt = session.StartedAt,
-                EndedAt = session.EndedAt,
-                Duration = duration,
-                DroneId = session.DroneId, 
-                AverageSpeed = avgSpeed.HasValue ? avgSpeed.Value : 0,
-                Recommendations = recommendations
-            };
+            return await ProcessFlightSummaryAsync(session);
         }
 
     }

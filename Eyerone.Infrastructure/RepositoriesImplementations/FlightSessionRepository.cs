@@ -1,6 +1,7 @@
-﻿using Eyerone.Domain.Models;
-using Eyerone.Infrastructure.Data;
+﻿using Eyerone.Application.DTOs;
 using Eyerone.Application.RepositoriesInterfaces;
+using Eyerone.Domain.Models;
+using Eyerone.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace Eyerone.Infrastructure.RepositoriesImplementations
@@ -41,6 +42,15 @@ namespace Eyerone.Infrastructure.RepositoriesImplementations
             return await _context.FlightSessions
                 .Where(s => s.DroneId == droneId && s.EndedAt == null)
                 .ToListAsync();
+        }
+        public async Task<IEnumerable<FlightSession>> GetSessionsByUserId(int userId)
+        {
+            return await _context.FlightSessions
+                .Include(s => s.Drone)
+                .Where(x => x.Drone.OwnerId == userId)
+                .OrderByDescending(s => s.StartedAt)
+                .ToListAsync();
+
         }
 
         public async Task DeleteAsync(int id)

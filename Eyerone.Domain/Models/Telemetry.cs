@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace Eyerone.Domain.Models
 {
@@ -10,8 +11,8 @@ namespace Eyerone.Domain.Models
         [Column("telemetry_id")]
         public int TelemetryId { get; set; }
 
-        [Required]
-        [Column("flight_id")]
+        [JsonPropertyName("flightId")]
+        [Required, Column("flight_id")]
         public int FlightId { get; set; }
 
         [Required]
@@ -30,6 +31,7 @@ namespace Eyerone.Domain.Models
         [Required, Column("speed")]
         public double Speed { get; set; }
 
+        [JsonPropertyName("battery")]
         [Required, Column("battery_level")]
         public int BatteryLevel { get; set; }
 

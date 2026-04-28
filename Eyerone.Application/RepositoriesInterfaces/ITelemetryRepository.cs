@@ -7,6 +7,7 @@ namespace Eyerone.Application.RepositoriesInterfaces
         Task<IEnumerable<Telemetry>> GetAllAsync(int limit = 100);
         Task<Telemetry?> GetByIdAsync(int id);
         Task<IEnumerable<Telemetry>> GetByFlightIdAsync(int flightId);
+        Task<Telemetry?> GetLatestTelemetryByDrone(int droneId);
         Task<Telemetry> AddAsync(Telemetry telemetry);
     }
 }

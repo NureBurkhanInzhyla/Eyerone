@@ -14,5 +14,6 @@ namespace Eyerone.Application.DTOs
 
         [Required]
         public string Password { get; set; }
+        public string? FcmDeviceToken { get; set; }
     }
 }
