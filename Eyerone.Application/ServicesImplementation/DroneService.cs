@@ -121,16 +121,23 @@ namespace Eyerone.Application.ServicesImplementation
         //    if (!Regex.IsMatch(serialNumber, "^[A-Z0-9]+$"))
         //        throw new InvalidSerialNumberException("Serial number may contain only uppercase Latin letters and digits.");
         //}
-        public async Task<string> AuthenticateDroneAsync(string serialNumber)
+        public async Task<string?> AuthenticateDroneAsync(string serialNumber)
         {
             var droneId = await _droneRepository.GetDroneIdBySerial(serialNumber);
             if (droneId == -1)
             {
                 _discoveredSerials[serialNumber] = DateTime.UtcNow;
-                throw new DroneNotFoundException("Drone not registered or has no owner.");
+                return null;
             }
 
             return GenerateJwtTokenForDrone(droneId);
+        }
+        public async Task<int> GetDroneIdBySerialAsync(string serialNumber)
+        {
+            var droneId = await _droneRepository.GetDroneIdBySerial(serialNumber);
+            if (droneId == -1)
+                throw new DroneNotFoundException("Drone not found");
+            return droneId;
         }
         public async Task DeleteDroneAsync(int id)
         {

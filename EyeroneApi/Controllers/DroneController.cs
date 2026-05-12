@@ -77,15 +77,18 @@ namespace EyeroneApi.Controllers
         [HttpGet("authenticate")]
         public async Task<ActionResult> AutheticateDrone(string serialNumber)
         {
-            try
+            var token = await _droneService.AuthenticateDroneAsync(serialNumber);
+            if (token == null)
             {
-                var token = await _droneService.AuthenticateDroneAsync(serialNumber);
-                return Ok(new { token });
+                return Accepted(new { message = "Waiting for owner assignment" });
             }
-            catch (DroneNotFoundException ex)
+            var droneId = await _droneService.GetDroneIdBySerialAsync(serialNumber);
+            return Ok(new
             {
-                return NotFound(new { error = ex.Message });
-            }
+                token = token,
+                droneId = droneId
+            });
+
         }
 
         [HttpGet("availableSerials")]

@@ -49,7 +49,7 @@ namespace EyeroneApi.Controllers
             return Ok(history);
         }
 
-        [HttpPost("add/{droneId}")]
+        [HttpPost("add")]
         [Authorize(Roles = "Drone")]
         public async Task<ActionResult<FlightSession>> AddFlightSession()
         {
